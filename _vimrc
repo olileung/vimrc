@@ -33,6 +33,14 @@ map <F1> :NERDTreeToggle<CR>
 
 com! FormatJSON %!python -m json.tool
 
+" tell vim to keep a backup file
+set backup
+set backupdir=C:\\vim-temp\\backups
+set dir=C:\\vim-temp\\swaps
+
+set number
+set autoindent
+
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
