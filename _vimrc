@@ -34,9 +34,12 @@ map <F1> :NERDTreeToggle<CR>
 com! FormatJSON %!python -m json.tool
 
 " tell vim to keep a backup file
-set backup
-set backupdir=C:\\vim-temp\\backups
-set dir=C:\\vim-temp\\swaps
+" set backup
+" set backupdir=C:\\vim-temp\\backups
+" set dir=C:\\vim-temp\\swaps
+
+set nobackup
+set noswapfile
 
 set number
 set autoindent
