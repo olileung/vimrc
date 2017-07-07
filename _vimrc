@@ -27,7 +27,7 @@ syntax on
 
 let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 "Spell-check set to F6
-map <F6> :setlocal spell! spelllang=en_us<CR>
+map <F6> :setlocal spell! spelllang=en_uk<CR>
 map <F10> :Goyo<CR>
 map <F1> :NERDTreeToggle<CR>
 
@@ -50,6 +50,7 @@ set nobackup
 set noswapfile
 
 set number
+set relativenumber
 set autoindent
 
 set diffexpr=MyDiff()
