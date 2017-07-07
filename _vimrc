@@ -38,6 +38,14 @@ com! FormatJSON %!python -m json.tool
 " set backupdir=C:\\vim-temp\\backups
 " set dir=C:\\vim-temp\\swaps
 
+" Disable the nav buttons - 
+" to help learn VIM properly!!
+" keep hjkl (for now)
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 set nobackup
 set noswapfile
 
