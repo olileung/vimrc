@@ -46,8 +46,10 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
-set nobackup
-set noswapfile
+" store backup, undo, and swap files in temp directory
+set directory=$HOME/temp//
+set backupdir=$HOME/temp//
+set undodir=$HOME/temp//
 
 set number
 set relativenumber
